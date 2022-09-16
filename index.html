@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/style/login.css">
+<link rel="manifest" href="manifest.json">
+<html lang="en">
+<head>
+        <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-startup-image" href="icon.png">
+        <link rel="apple-touch-icon" href="icon.png">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="initial-scale=1,viewport-fit=cover, user-scalable=no">
+    
+</head>
+<header>
+
+    <img src="/icons/logo.png" width="400px">
+</header>
+<body>
+<br><br><br><br><br><br><br><br><br><br>
+<table class="placer">
+    <tr>
+        <td class="placertd"></td>
+        <td class="placertd"></td>
+        <td class="placertd"></td>
+        <td class="placertd"> 
+            
+            <div class="form">
+            <br><br><br>
+            <h1>Login</h1>
+            <input type="text" id="username" placeholder="&nbsp;Benutzername:" onkeypress="handle(event)">
+            <br><br>
+            <input type="password" id="password" placeholder="&nbsp;Kennwort:" onkeypress="handle(event)">
+            <br><br>
+            <button onclick="login()">Login</button>
+            <br><br><br><br><br><br>
+            <a id="errormessage" style="color: rgb(234, 46, 46);"></a>
+            <br><br><br><br><br><br>
+        </div></td>
+        <td class="placertd"></td>
+        <td class="placertd"></td>
+        <td class="placertd"></td>
+    </tr>
+</table>
+  
+</body>
+</html>
+
+<script src="/admin/admin.js"></script>
+<script src="/scripts/login.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>

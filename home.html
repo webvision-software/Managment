@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/style/home.css">
+<link rel="manifest" href="manifest.json">
+<html lang="en">
+<head>
+        <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-startup-image" href="icon.png">
+        <link rel="apple-touch-icon" href="icon.png">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="initial-scale=1,viewport-fit=cover, user-scalable=no">
+    
+</head>
+<header>
+    
+    <img src="/icons/logo.png" width="400px">
+    <h2 id="acc"></h2>
+    <button onclick="logout()" id="logoutButton" >Ausloggen -></button>
+</header>
+<body>
+    <br><br><br><br><br><br><br><br><br><br>
+        <button onclick="openAssignments()" class="widget"><img src="/icons/assignments.png" height="200px"> <br> Aufträge</button>
+     
+        <button onclick="openTimeManagement()" class="widget"><img src="icons/time.png" height="200px"> <br> Zeiterfassung</button>
+     
+        <button onclick="openEmployees()" class="widget"><img src="/icons/employees.png" height="200px"> <br> Mitarbeiter</button>
+    
+        <button onclick="openManagment()" class="widget"><img src="/icons/managment.png" height="200px"> <br> Verwaltung</button>
+    
+
+</body>
+</html>
+
+<script src="/scripts/logout.js"></script>
+<script src="/scripts/openpages.js"></script>
+<script src="/admin/admin.js"></script>

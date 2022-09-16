@@ -1,0 +1,14 @@
+{
+  "name": "Webvision Buisness",
+  "short_name": "Webvison Buisness",
+  "lang": "de-de",
+  "start_url": "/",
+  "display": "fullscreen",
+ 
+
+  "icons": [{
+      "src": "icon.png",
+      "sizes": "200x200",
+      "type": "image/png"
+  }]
+}

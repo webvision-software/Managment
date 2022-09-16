@@ -1,0 +1,89 @@
+html{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+   /* background: rgb(54,153,168);
+    background: linear-gradient(90deg, rgb(69, 175, 191) 0%, rgb(142, 216, 132) 50%, rgb(69, 175, 191) 100%);*/
+    background-color: rgb(36, 109, 107) ;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: left;
+    z-index: 1;
+}
+
+table{
+    width: 95%;
+    height: 65vh;
+    position: relative;
+    left: 2.5%;
+    top: 50px;
+}
+
+
+td{
+    width: 47.5%;
+    border-radius: 2px;
+    border: solid black;
+    border-width: 0.5px;
+}
+
+td:hover{
+    width: 47.5%;
+    background-color: rgba(207, 207, 207, 0.309);
+    cursor:pointer;
+    border-radius: 2px;
+}
+
+#acc{
+    text-align: right;
+    position: relative;
+    top: -140px;
+    left: -20px;
+}
+
+
+#logoutButton{
+  position: fixed;
+  left: 80%;
+  top: 0px;
+  height: 120px;
+  width: 20%;
+  background: linear-gradient(90deg, rgb(36, 109, 107)  0%, rgb(142, 216, 132) 100%);
+border: none;
+color: rgb(0, 0, 0);
+font-size: 20px;
+font-weight: bold;
+}
+
+.widget{
+    width:350px;
+    height: 300px;
+    background-color: rgb(36, 109, 107) ;
+    border: solid white;
+    border-width: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.widget:hover{
+    width:350px;
+    height: 300px;
+    background-color: rgb(27, 166, 157);
+    border: solid white;
+    border-width: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
